@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.akm",
+    "module": "mutils",
+    "version": "0.0.01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.01.aar",
+          "url": "mutils-0.0.01.aar",
+          "size": 3437,
+          "sha512": "0f165a859bd43edd0d5f6c2cc4910cbe43259ddb2f2e813732f6783d39f9adff948240302b71e6772012f3d4b22f3d629ff4b02140cbd4a45a798e7d0fa63dd9",
+          "sha256": "0f83f7c2d7650eb36d61a0c6f77e8203de755dbea93afaf7b1b654d8a1231bea",
+          "sha1": "e1af30392674ea81ab4fa8c0502ef11a3a03e886",
+          "md5": "b96fdc2c8a305a6f96ea244010975e16"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.01.aar",
+          "url": "mutils-0.0.01.aar",
+          "size": 3437,
+          "sha512": "0f165a859bd43edd0d5f6c2cc4910cbe43259ddb2f2e813732f6783d39f9adff948240302b71e6772012f3d4b22f3d629ff4b02140cbd4a45a798e7d0fa63dd9",
+          "sha256": "0f83f7c2d7650eb36d61a0c6f77e8203de755dbea93afaf7b1b654d8a1231bea",
+          "sha1": "e1af30392674ea81ab4fa8c0502ef11a3a03e886",
+          "md5": "b96fdc2c8a305a6f96ea244010975e16"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mutils-0.0.01-sources.jar",
+          "url": "mutils-0.0.01-sources.jar",
+          "size": 1249,
+          "sha512": "974cdbb49e8d8d3501d3eb5bf3221814020a522bf055bd2f63136bba81a4083b2c187a15fa9bdbedd1674f53099b21986222ec734b156cd1fa7712a63bb4703e",
+          "sha256": "e561163ceb64feabb2fbf04f5356738d13b22999d8701b6550eaec8e6a1459ce",
+          "sha1": "51a0e8608aa75db4abf561161cdbe29607736342",
+          "md5": "abafdeee1d661d7c7759e860a516c927"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mutils-0.0.01-javadoc.jar",
+          "url": "mutils-0.0.01-javadoc.jar",
+          "size": 270017,
+          "sha512": "cf02b4094e1ec56a5ac3b1ee40c869ba0f21c267afb2491cecc3e4177afb31de91e23593a60de1f25016c12ee6655c59d77aa7d9b64e3645dbb6712753b4d1b3",
+          "sha256": "37c159fe6347adb5500d1ed52e8b774c3471d5508fc2ce64e4c6382feecb6f55",
+          "sha1": "f6da6d0802919629ff857083d2ad23bfabedb5f7",
+          "md5": "ab593df4985acec416564a9d57fa6e81"
+        }
+      ]
+    },
+    {
+      "name": "releaseTestFixturesVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.akm",
+          "module": "mutils",
+          "version": {
+            "requires": "0.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.01-test-fixtures.aar",
+          "url": "mutils-0.0.01-test-fixtures.aar",
+          "size": 775,
+          "sha512": "603933e2a6b9cc9ceae170ac1cf677256b132f0c615d751992656ab79203fde49ce81c3a78206abab4e823d4669d45761cc43c959e37a52833336fa1c6fafd2e",
+          "sha256": "4f77e95cbd0aab6d6a43f58780a87ce65720d32a9a4be71370e3f35a51767813",
+          "sha1": "06781cc75fc8ba92a30639b4f1efb6a8a3b1f727",
+          "md5": "d60d4da54ff099c104edecf9a9cb8da6"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "AKM Utilities",
+          "name": "mutils-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "releaseTestFixturesVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.akm",
+          "module": "mutils",
+          "version": {
+            "requires": "0.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.01-test-fixtures.aar",
+          "url": "mutils-0.0.01-test-fixtures.aar",
+          "size": 775,
+          "sha512": "603933e2a6b9cc9ceae170ac1cf677256b132f0c615d751992656ab79203fde49ce81c3a78206abab4e823d4669d45761cc43c959e37a52833336fa1c6fafd2e",
+          "sha256": "4f77e95cbd0aab6d6a43f58780a87ce65720d32a9a4be71370e3f35a51767813",
+          "sha1": "06781cc75fc8ba92a30639b4f1efb6a8a3b1f727",
+          "md5": "d60d4da54ff099c104edecf9a9cb8da6"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "AKM Utilities",
+          "name": "mutils-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    }
+  ]
+}
