@@ -35,11 +35,11 @@
         {
           "name": "mutils-0.0.01.aar",
           "url": "mutils-0.0.01.aar",
-          "size": 4047,
-          "sha512": "e65b68c1a5ef3d0b5ecfe62153385e1dca1373f0327aae4c60896d25640d20646f572d61627683e3a51f8acd79510ed61b055dbb904668a2d479ec49c52599f3",
-          "sha256": "4280a8913fbc4cf533cbd9cffbd3d1b0bd51bedeb536d8260d8cc0129d4373e3",
-          "sha1": "9342f0703646e48b8aac6e0eb6c0e6fb7a71a374",
-          "md5": "1212db4311fd7b46565b70519ed0d9c5"
+          "size": 4049,
+          "sha512": "ebb315d5271685cc842a28c1b04c5e03d9336400ea2fe6ad1d3e4cbd78ae29dd6932fe793fd032e817e139bf05702dcb162e9afb0f015ecda00ac97b61eeca12",
+          "sha256": "fe4c679b6e37e37e3b67c068879ca7e55462f3ac421a9e4a7686072e15ad0a7e",
+          "sha1": "9a65431dd8aed00256f737a04371c4b159e154cc",
+          "md5": "39475165ac21f2801d2a1fa9665a8d11"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "mutils-0.0.01.aar",
           "url": "mutils-0.0.01.aar",
-          "size": 4047,
-          "sha512": "e65b68c1a5ef3d0b5ecfe62153385e1dca1373f0327aae4c60896d25640d20646f572d61627683e3a51f8acd79510ed61b055dbb904668a2d479ec49c52599f3",
-          "sha256": "4280a8913fbc4cf533cbd9cffbd3d1b0bd51bedeb536d8260d8cc0129d4373e3",
-          "sha1": "9342f0703646e48b8aac6e0eb6c0e6fb7a71a374",
-          "md5": "1212db4311fd7b46565b70519ed0d9c5"
+          "size": 4049,
+          "sha512": "ebb315d5271685cc842a28c1b04c5e03d9336400ea2fe6ad1d3e4cbd78ae29dd6932fe793fd032e817e139bf05702dcb162e9afb0f015ecda00ac97b61eeca12",
+          "sha256": "fe4c679b6e37e37e3b67c068879ca7e55462f3ac421a9e4a7686072e15ad0a7e",
+          "sha1": "9a65431dd8aed00256f737a04371c4b159e154cc",
+          "md5": "39475165ac21f2801d2a1fa9665a8d11"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "mutils-0.0.01-sources.jar",
           "url": "mutils-0.0.01-sources.jar",
-          "size": 1429,
-          "sha512": "4e29723cd32a3393c5c988059d27f74fb7e9b92c2314f258fff89d50c9bfbccde12f9f9849e5d529eef616b587c973b0ca69911a44f43c31dc98df4ba07bbad1",
-          "sha256": "90af1e696075b597177ee5a5e30af231cfdbf8a9c4866033b223b4f961a0864f",
-          "sha1": "da7f3b7ebe1bfa029d734c593bc29d9a447447f7",
-          "md5": "d12716807a316c13c402c0d9166fee10"
+          "size": 1431,
+          "sha512": "9c843f4f146d92af73955cb227537ba992235171e95941a87d6c3ee641e9cbd9b9f03036d54325eb556f2f4d95809bcfff056cd46236e2a97db20fc1c3f43488",
+          "sha256": "8339ddcc350369f0b66b203fbab7c1ebe0420e827094ca65f3073c99b63874a6",
+          "sha1": "9cc10a8221501dd311a5081471b15198d50e1025",
+          "md5": "631f560c2281b1d3d5206d42082f0e06"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "mutils-0.0.01-javadoc.jar",
           "url": "mutils-0.0.01-javadoc.jar",
-          "size": 274314,
-          "sha512": "f398e2aa9aa303c9d4723be2375d7e276d206c268fa8af77772f3b2405afb799a3df934e1ed0a94a39bbad1c44e69415497b137cd4ad7072b4fcba256f7b2136",
-          "sha256": "2b2378e32a39e6edb9cce4a335346c494be53930a09a95f334fd79d3cbc94406",
-          "sha1": "9627623a22307c0df30f7a2bd0efe10a48cd0bce",
-          "md5": "87ef76f359e906203978bcdd5df72d35"
+          "size": 274321,
+          "sha512": "526c59798cc30dbb282834326c770bd3302ef575984f6df21d4a71340ede5e61b5248297d1912838650b41a342cbf45ee98afcd9ef3cc850bee0c27267fa7d1b",
+          "sha256": "fbcfdc9d1787e26a29f8864163880aaca9edf85eb5d405572f4c45ece16afe39",
+          "sha1": "0494f5b4ace4ea7400b04527cf28f39d292e859f",
+          "md5": "feea74983ccf6a95e81e73221eb38380"
         }
       ]
     },
